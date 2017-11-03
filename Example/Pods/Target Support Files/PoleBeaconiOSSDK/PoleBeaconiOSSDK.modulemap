@@ -1,0 +1,6 @@
+framework module PoleBeaconiOSSDK {
+  umbrella header "PoleBeaconiOSSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

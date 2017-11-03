@@ -14,6 +14,7 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		86E873C9CE225F41A1F4E96E /* Pods_PoleBeaconiOSSDK_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB1584FC6B0B951BC75A43B8 /* Pods_PoleBeaconiOSSDK_Tests.framework */; };
+		AE43E63B1FACA038008AC828 /* PoleBeaconiOSSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE43E63C1FACA038008AC828 /* PoleBeaconiOSSDK.framework */; };
 		E9906376B34E47B6984F5AC6 /* Pods_PoleBeaconiOSSDK_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD4BC739C9B06AB13A00D23A /* Pods_PoleBeaconiOSSDK_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -38,14 +39,15 @@
 		607FACE51AFB9204008FA782 /* PoleBeaconiOSSDK_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PoleBeaconiOSSDK_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		65BCBBA05EC34D1BFFD6C29C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		65BCBBA05EC34D1BFFD6C29C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		66723AE86764DB3802E3F05D /* Pods-PoleBeaconiOSSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PoleBeaconiOSSDK_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-PoleBeaconiOSSDK_Example/Pods-PoleBeaconiOSSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
-		7F637B705CFBB9841CA426F6 /* PoleBeaconiOSSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = PoleBeaconiOSSDK.podspec; path = ../PoleBeaconiOSSDK.podspec; sourceTree = "<group>"; };
+		7F637B705CFBB9841CA426F6 /* PoleBeaconiOSSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = PoleBeaconiOSSDK.podspec; path = ../PoleBeaconiOSSDK.podspec; sourceTree = "<group>"; };
 		8F279B956498D81336376551 /* Pods-PoleBeaconiOSSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PoleBeaconiOSSDK_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PoleBeaconiOSSDK_Tests/Pods-PoleBeaconiOSSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		AE43E63C1FACA038008AC828 /* PoleBeaconiOSSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = PoleBeaconiOSSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5D230F920E583E3AC2CDCD8 /* Pods-PoleBeaconiOSSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PoleBeaconiOSSDK_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PoleBeaconiOSSDK_Example/Pods-PoleBeaconiOSSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B6CA61ED6CA5133F7A7C9391 /* Pods-PoleBeaconiOSSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PoleBeaconiOSSDK_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PoleBeaconiOSSDK_Tests/Pods-PoleBeaconiOSSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		DD4BC739C9B06AB13A00D23A /* Pods_PoleBeaconiOSSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PoleBeaconiOSSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EA57F4E410B426972419C1F2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		EA57F4E410B426972419C1F2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		EB1584FC6B0B951BC75A43B8 /* Pods_PoleBeaconiOSSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PoleBeaconiOSSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -54,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE43E63B1FACA038008AC828 /* PoleBeaconiOSSDK.framework in Frameworks */,
 				E9906376B34E47B6984F5AC6 /* Pods_PoleBeaconiOSSDK_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -153,6 +156,7 @@
 		FE271B33572DDA5275F431FD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				AE43E63C1FACA038008AC828 /* PoleBeaconiOSSDK.framework */,
 				DD4BC739C9B06AB13A00D23A /* Pods_PoleBeaconiOSSDK_Example.framework */,
 				EB1584FC6B0B951BC75A43B8 /* Pods_PoleBeaconiOSSDK_Tests.framework */,
 			);

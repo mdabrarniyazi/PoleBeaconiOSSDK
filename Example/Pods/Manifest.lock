@@ -1,0 +1,19 @@
+PODS:
+  - KontaktSDK (1.5.1)
+  - PoleBeaconiOSSDK (0.1.0):
+    - KontaktSDK (~> 1.3)
+
+DEPENDENCIES:
+  - PoleBeaconiOSSDK (from `../`)
+
+EXTERNAL SOURCES:
+  PoleBeaconiOSSDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  KontaktSDK: 68cc25fd7fbab5b03b1c86db440620e55b031580
+  PoleBeaconiOSSDK: f705914690940c0045f59af7732704a7e22c84a3
+
+PODFILE CHECKSUM: 2c3bd0e09c1a98ef166181447599708c31f327de
+
+COCOAPODS: 1.2.1
