@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'PoleBeaconiOSSDK_Example' do
+  pod 'PoleBeaconiOSSDK', :path => '../'
+
+  target 'PoleBeaconiOSSDK_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
